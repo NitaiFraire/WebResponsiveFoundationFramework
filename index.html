@@ -1,0 +1,407 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitai'sFavorites</title>
+    <link rel="stylesheet" href="css/foundation-flex.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Ravi+Prakash" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/pricingTable.css">
+    <link rel="stylesheet" href="icons/foundation-icons/foundation-icons.css">
+  </head>
+  <body>
+
+    <div class="off-canvas-wrap" off-canvas-wrap>
+      <div class="inner-wrap">
+        <div id="offCanvas" class="off-canvas position-left" data-off-canvas>
+          <nav data-magellan>
+            <ul class="vertical menu" data-drilldown>
+              <li><a href="#ticketsContainer">Tickets</a></li>
+              <li>
+                <a href="#lineUpContainer">LineUp</a>
+                 <ul class="menu">
+                  <li><a data-toggle-dia="panelViernes" href="#lineUpContainer">Viernes</a></li>
+                  <li><a data-toggle-dia="panelSabado"href="#lineUpContainer">Sabado</a></li>
+                  <li><a data-toggle-dia="panelDomingo"href="#lineUpContainer">Domingo</a></li>
+                </ul>
+              </li>
+              <li><a href="#infoContainer">Info</a></li>
+              <li><a href="#suscribeteContainer">Suscríbete</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="off-canvas-content" data-off-canvas-content>
+
+      <!-- Social -->
+
+      <section id="socialContiner">
+        <div class="row align-center text-center">
+          <div class="small-1 column">
+            <a href="#" target="_blank">
+              <i class="fi-social-facebook"></i>
+            </a>
+          </div>
+          <div class="small-1 column">
+            <a href="#" target="_blank">
+              <i class="fi-social-twitter"></i>
+            </a>
+          </div>
+          <div class="small-1 column">
+            <a href="#" target="_blank">
+              <i class="fi-social-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- /Social -->
+
+      <!-- Logo -->
+
+      <section id="logoContainer">
+        <div class="callout text-center">
+        <h1>Nitai'sFavorites</h1>
+        </div>
+      </section>
+
+      <!-- /Logo -->
+
+      <!-- Menu -->
+
+      <section id="scrollSticky" data-sticky-container >
+        <div class="data-sticky" data-sticky id="sticky" data-options="marginTop:0;" data-sticky-on="small" data-top-anchor="scrollSticky">
+          <nav id="menuContainer" data-magellan>
+            <ul class="menu align-spaced show-for-small-only">
+              <li><a href="#" data-toggle="offCanvas">Menu</a></li>
+            </ul>
+            <ul class="menu dropdown align-spaced show-for-medium" data-dropdown-menu>
+              <li><a href="#ticketsContainer">Tickets</a></li>
+              <li>
+                <a href="#lineUpContainer">LineUp</a>
+                <ul id="subMenuContainer"class="menu">
+                  <li><a data-toggle-dia="panelViernes" href="#lineUpContainer">Viernes</a></li>
+                  <li><a data-toggle-dia="panelSabado"href="#lineUpContainer">Sabado</a></li>
+                  <li><a data-toggle-dia="panelDomingo"href="#lineUpContainer">Domingo</a></li>
+                </ul>
+              </li>
+              <li><a href="#infoContainer">Info</a></li>
+              <li><a href="#suscribeteContainer">Suscríbete</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      <!-- /Menu -->
+
+      <!-- Tickets -->
+
+      <section id="ticketsAction">
+        <div class="callout large text-center">
+          <a href="#">
+            <button class="button hollow large" type="button" name="button">comprar boletos</button>
+          </a>
+        </div>
+      </section>
+
+      <!-- /Tickets -->
+
+      <!-- LineUp -->
+
+      <section id="lineUpContainer" data-magellan-target="lineUpContainer">
+          <h3 class="text-center">LineUp</h3>
+          <ul class="tabs text-center" data-tabs id="lineUpTabs">
+            <li class="tabs-title is-active"><a href="#panelViernes" aria-selected="true">Viernes</a></li>
+            <li class="tabs-title "><a data-tabs-target="panelSabado" href="#panelSabado">Sábado</a></li>
+            <li class="tabs-title "><a data-tabs-target="panelDomingo" href="#panelDomingo">Domingo</a></li>
+          </ul>
+          <div class="tabs-content" data-tabs-content="lineUpTabs">
+            <div class="tabs-panel is-active" id="panelViernes">
+              <div class="row">
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandViernes" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="http://flypaper.soundfly.com/wp-content/uploads/2016/10/gorillaz-header.png" alt="Gorillaz">
+                        <figcaption class="orbit-caption">Gorillaz</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandViernes" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://images.bigcartel.com/theme_images/22468244/sticky_fingers_orange_wall-25.jpg?auto=format&fit=max&w=2000" alt="Sticky fingers">
+                        <figcaption class="orbit-caption">Sticky fingers</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandViernes" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="http://images.fanpop.com/images/image_uploads/The-Killers-the-killers-77156_1920_1293.jpg" alt="The killers">
+                        <figcaption class="orbit-caption">The killers</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandViernes" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="http://saintheron.com/wp-content/uploads/2014/04/Little-Dragon_Group.jpg" alt="Little dragon">
+                        <figcaption class="orbit-caption">Little dragon</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandViernes" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://ichef.bbci.co.uk/images/ic/960x540/p01bqfh0.jpg" alt="LCD Soundsystem">
+                        <figcaption class="orbit-caption">LCD Soundsystem</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandViernes" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://images3.alphacoders.com/198/198007.jpg" alt="Crystal castles">
+                        <figcaption class="orbit-caption">Crystal castles</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tabs-panel is-active" id="panelSabado">
+              <div class="row">
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandSabado" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://static1.squarespace.com/static/582a8acdbebafbc7a235a56a/t/58ec37316a49630e8a481e8a/1491875644694/" alt="cuco">
+                        <figcaption class="orbit-caption">cuco</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandSabado" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://ksassets.timeincuk.net/wp/uploads/sites/55/2014/09/KingKruleTM150811.jpg" alt="king krule">
+                        <figcaption class="orbit-caption">king krule</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandSabado" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://static01.nyt.com/images/2018/05/24/arts/24clairo1/24clairo1-facebookJumbo.jpg" alt="clairo">
+
+                        <figcaption class="orbit-caption">clairo</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandSabado" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="http://img.wennermedia.com/social/rs-13070-es-624-1382358082.jpg" alt="Elliot smith">
+                        <figcaption class="orbit-caption">Elliot smith</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandSabado" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="https://i-d-images.vice.com/images/articles/meta/2014/11/24/untitled-article-1416835423.jpg?crop=1xw:0.8396501457725948xh;0xw,0.119533527696793xh&resize=2000:*&output-format=image/jpeg&output-quality=75" alt="kali uchis">
+                        <figcaption class="orbit-caption">kali uchis</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandSabado" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="http://www.konbini.com/en/files/2014/10/toro-y-moi5_wide-85b2ed2e449451cacd0087fcb0900e957e0287ec.jpg" alt="toro y moi">
+                        <figcaption class="orbit-caption">toro y moi</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tabs-panel is-active" id="panelDomingo">
+              <div class="row">
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandDomingo" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="http://cdn2-www.musicfeeds.com.au/assets/uploads/flume-2017-press-pic-supplied-photo-by-Cybele-Malinowski.jpg" alt="flume">
+                        <figcaption class="orbit-caption">flume</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandDomingo" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="http://images2.fanpop.com/image/photos/10700000/Daft-Punk-HD-daft-punk-10709730-1920-1080.jpg" alt="daft punk">
+                        <figcaption class="orbit-caption">daft punk</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandDomingo" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="http://wallsdesk.com/wp-content/uploads/2017/01/Mac-Miller-Wallpapers.jpg" alt="mac miller">
+                        <figcaption class="orbit-caption">mac miller</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandDomingo" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="http://hypebeast.com/image/2015/05/tyler-the-creator-says-odd-future-is-no-more-0.jpg" alt="tyler the creator">
+                        <figcaption class="orbit-caption">tyler the creator</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandDomingo" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="http://brokeassstuart.com/wp-content/pictsnShit/2017/07/Magazine_1304_NicolasJaar-1200x675.jpg" alt="nicolas jaar">
+                        <figcaption class="orbit-caption">nicolas jaar</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <div class="orbit" aria-label="BandDomingo" data-orbit>
+                    <div class="orbit-container">
+                      <div class="orbit-slide">
+                        <img class="orbit-image" src="http://groovevolt.com/wp-content/uploads/2017/06/Kendrick-Lamar-1000x600.jpg" alt="kendrick lamar">
+                        <figcaption class="orbit-caption">kendrick lamar</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- /LineUp -->
+
+      <!-- Boletos -->
+
+      <section id="ticketsContainer" data-magellan-target="ticketsContainer">
+        <h3 class="text-center">Compra tus boletos!</h3>
+        <div class="row" data-equalizer data-equalize-on="small">
+          <div class="small-10 medium-6 medium-offset-3 small-offset-1 column">
+            <ul class="pricing-table no-bullet text-center">
+              <li class="title">Platino</li>
+              <li class="price">$120.99</li>
+              <li class="description">Acceso viernes, sábado, domingo</li>
+              <li>Barra libre todos días</li>
+              <li>Estacionamiento todos los días</li>
+              <li>Sorteo para acceder al backstage</li>
+              <li><a class="button" href="#">Comprar platino</a></li>
+            </ul>
+          </div>
+          <div class="small-6 medium-4  medium-offset-2 column">
+            <ul class="pricing-table no-bullet text-center">
+              <li class="title">Gold</li>
+              <li class="price">$80.00</li>
+              <li class="description">Acceso viernes, sábado, domingo</li>
+              <li data-equalizer-watch>Barra libre un dia</li>
+              <li data-equalizer-watch>Sorteo para acceder al backstage</li>
+              <li data-equalizer-watch>-</li>
+              <li><a class="button" href="#">Comprar Gold</a></li>
+            </ul>
+          </div>
+          <div class="small-6 medium-4 column">
+            <ul class="pricing-table no-bullet text-center">
+              <li class="title">Silver</li>
+              <li class="price">$60.00</li>
+              <li class="description">Acceso viernes, sábado, domingo</li>
+              <li data-equalizer-watch>Sorteo para acceder al backstage</li>
+              <li>-</li>
+              <li>-</li>
+              <li><a class="button" href="#">Comprar Silver</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- /Boletos -->
+
+      <!-- Suscribete -->
+
+      <section id="suscribeteContainer" data-magellan-target="suscribeteContainer">
+        <h3 class="text-center">Suscríbete</h3>
+        <h4 class="text-center">Y recibe las últimas novedades de mi festival </h4>
+        <form class="" action="" method="" novalidate data-abide>
+          <div data-abide-error class="row columns small-12 medium-6 text-center errorContainer" style="display: none;">
+            <p><i class="fi-alert"></i>Ingresó un correo electronico no valido</p>
+          </div>
+          <div class="row columns small-12 medium-6">
+            <div class="input-group">
+              <span class="input-group-label"><i class="fi-mail"></i></span>
+              <input type="email" name="email" class="input-group-field" placeholder="tu@correo.com" required value="">
+              <div class="input-group-button">
+                <input type="submit" class="button" name="" value="Suscribirse!">
+              </div>
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <!-- /Suscribete -->
+
+      <!-- /Info -->
+
+      <section id="infoContainer" data-magellan-target="infoContainer">
+        <h3 class="text-center">Información</h3>
+        <div class="infoMap" data-interchange="[images/mapSmall.html, small], [images/map.html, medium]"></div>
+        <img src="" alt="">
+      </section>
+
+      <!-- /Info -->
+    </div>
+
+
+
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
